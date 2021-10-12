@@ -1,0 +1,18 @@
+.nav {
+  background: gray;
+  padding: 1rem;
+
+  ul {
+    list-style-type: none;
+    li {
+      display: inline-block;
+      a:hover {
+        text-decoration: underline;
+        color: blue;
+      }
+      & ~ li {
+        margin-left: 1rem;
+      }
+    }
+  }
+}
